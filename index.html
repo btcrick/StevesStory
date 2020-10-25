@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Sixteen Personalities</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- https://ar-js-org.github.io/AR.js-Docs/-->
+<!--Note to self: In order for this code  to work, the following things are required for the gltf-model:
+The entire folder with scene.bin and scene.gltf must be uploaded to GitHub
+The URL must include https
+The URL must start with https://arjs-cors-proxy.herokuapp.com/
+Check that gltf is working at https://gltf-viewer.donmccurdy.com/
+-->
+
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+
+      <!--Zeroeth Marker logo and 3D model-->
+<a-marker type='pattern' url='https://makeademic.github.io/SixteenPersonalities/pattern-logo.patt'>
+        <a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.005 0.005 0.005"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://makeademic.github.io/SixteenPersonalities/16_spheres/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+      
+      
+      <!--First Marker INTJ and Image Overlay-->
+      
+      <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-1.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/1.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-2.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/2.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-3.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/3.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-4.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/4.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-5.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/5.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-6.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/6.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-7.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/7.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-8.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/8.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-9.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/9.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-10.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/10.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-11.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/11.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-12.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/12.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-13.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/13.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-14.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/14.png"></a-image> 
+</a-marker>
+      
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-15.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/15.png"></a-image> 
+</a-marker>
+       
+            <a-marker type='pattern' url='https://btcrick.github.io/StevesStory/pattern-16.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://btcrick.github.io/StevesStory/16.png"></a-image> 
+</a-marker>
+
+          
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+<!-- partial -->
+  
+</body>
+</html>
