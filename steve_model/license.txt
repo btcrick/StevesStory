@@ -1,0 +1,11 @@
+Model Information:
+* title:	Steve_Model
+* source:	https://sketchfab.com/3d-models/steve-model-95ff2ad18b104308b38ae403bab5f20c
+* author:	Btcrick (https://sketchfab.com/Btcrick)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Steve_Model" (https://sketchfab.com/3d-models/steve-model-95ff2ad18b104308b38ae403bab5f20c) by Btcrick (https://sketchfab.com/Btcrick) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
